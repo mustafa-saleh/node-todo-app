@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: "https://mustafa-saleh.github.io/personal_assistant",
+    origin: "https://mustafa-saleh.github.io",
   })
 );
 
