@@ -18,7 +18,7 @@ app.use(
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  process.env.DB_URI || "mongodb://localhost:27017/PersonalAssistant",
+  process.env.DB_URI || "mongodb://localhost:27017/todo",
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     if (err) console.log(`ERROR: ${err}`);
